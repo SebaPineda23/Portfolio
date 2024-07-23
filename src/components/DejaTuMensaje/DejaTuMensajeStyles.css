@@ -1,0 +1,145 @@
+.container-dejaTuMensaje{
+    width: 100vw;
+    height: 500px;
+    background-color: #1a191a;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.container-dejaTuMensaje h3{
+    margin: 0;
+}
+.section-dejaTuMensaje{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.container-columnas{
+    display: flex;
+    width: 1020px;
+    margin-top: 40px;
+    gap: 95px;
+}
+.columna-izq-dejaTuMensaje{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.columna-izq-dejaTuMensaje a{
+    width: 200px;
+    text-decoration: none;
+    color: rgb(169, 45, 0);
+}
+.columna-izq-dejaTuMensaje a:hover{
+    opacity: 0.8;
+}
+.container-iconos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn-dejaTuMensaje{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons-dejaTuMensaje{
+    font-size: 20px;
+}
+.btn-dejaTuMensaje:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(89,89,89,1);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(89,89,89,1);
+    box-shadow: 0px 0px 6px 0px rgba(89,89,89,1);
+}
+.btn-dejaTuMensaje a{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+@media (max-width:720px) {
+    .container-dejaTuMensaje{
+        flex-direction: column;
+    }
+    .container-columnas{
+        flex-direction: column;
+        width: 100%;
+        gap:0px;
+    }
+    .columna-izq-dejaTuMensaje{
+        width: 90%;
+        margin: 0 20px;
+    }
+    .section-dejaTuMensaje{
+        width: 100%;
+        height: 30%;
+    }
+}
+@media (min-width: 721px) and (max-width: 1024px) {
+    .container-dejaTuMensaje{
+        width: 100%;
+       
+    }
+    .section-dejaTuMensaje{
+        width: 100%;
+        margin: 0 20px;
+    }
+    .columna-izq-dejaTuMensaje{
+        width: 40%;
+        margin-left: 20px;
+    }
+    .container-columnas{
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+
+/*import '../DejaTuMensaje/DejaTuMensajeStyles.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedinIn, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import NombreSeccion from '../NombreSeccion/NombreSeccion';
+import InputText from '../InputText/InputText';
+
+const DejaTuMensaje = () => {
+    
+  return (
+    <div className='container-dejaTuMensaje'>
+        <div className="section-dejaTuMensaje">
+          <NombreSeccion numero='5.' nombre='Deja tu mensaje !'/>
+        <div className='container-columnas'>
+        <div className='columna-izq-dejaTuMensaje'>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non vel, quas pariatur quis totam ex esse nemo illum dolorum commodi tempore distinctio nostrum laboriosam facere amet? Atque molestias ullam nihil?</p>
+            <a href="http://" target="_blank" rel="noopener noreferrer">sebapinedadev@gmail.com</a>
+            <div className='container-iconos'>
+                <div className='btn-dejaTuMensaje'>
+          <a href="https://www.linkedin.com/in/sebastian-pineda-a9a848294/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='icon-dejaTuMensaje' icon={faLinkedinIn} style={{color: "#989898",}} /></a>
+            </div>
+            <div className='btn-dejaTuMensaje'>
+          <a href="https://github.com/SebaPineda23" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='icon-dejaTuMensaje' icon={faGithub} style={{color: "#989898",}} /></a>
+          </div>
+          <div className='btn-dejaTuMensaje'>
+          <a href="https://www.instagram.com/sebaa_pineda/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='icon-dejaTuMensaje' icon={faInstagram} style={{color: "#989898",}} /></a>
+          </div>
+            </div>
+        </div>
+        <div className='columna-der-dejaTuMensaje'>
+            <input className='email' type="email" name="" id="" placeholder='Email...' />
+            <InputText/>
+            <button>Enviar</button>
+        </div>
+        </div>
+        </div>
+    </div>
+  )
+}
+
+export default DejaTuMensaje
+*/

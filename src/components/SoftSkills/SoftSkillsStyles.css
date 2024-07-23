@@ -1,0 +1,80 @@
+.container-softSkills{
+    width: 100vw;
+    height: 500px;
+    background-color: #1a191a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+}
+.section-softSkills{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.section-cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 1025px;
+    height: 200px;
+    gap: 10px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    background-color: rgb(38, 38, 38);
+    padding: 10px;
+    border-radius: 10px;
+}
+.cards .icon{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.cards h2{
+    margin: 10px 0;
+    color: rgb(169, 45, 0);
+}
+.cards p{
+    margin: 5px;
+    color: rgb(152, 152, 152);
+}
+@media (max-width:720px) {
+    .section-cards{
+        flex-direction: column;
+        width:  100%;
+        height: 550px;
+    }
+    .section-softSkills{
+        width:  100%;
+        height: 1100px;
+    }
+    .cards{
+        width: 90%;
+        margin: 0 10px;
+    }
+}
+@media (min-width: 721px) and (max-width: 1024px) {
+    .container-softSkills{
+    }
+    .section-cards{
+        width:  100%;
+    }
+    .section-softSkills{
+        width:  100%;
+        height: 100%;
+        margin: 0 20px;
+    }
+    .cards{
+        width: 90%;
+        height: 100%;
+    }
+}
