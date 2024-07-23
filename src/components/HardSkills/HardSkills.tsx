@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import '../HardSkills/HardSkillsStyles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faSquareJs, faReact,faBootstrap } from '@fortawesome/free-brands-svg-icons';
