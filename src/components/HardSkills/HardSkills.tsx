@@ -9,7 +9,7 @@ import mySqlImg from '../../assets/MySql.com.png';
 import postgreImg from '../../assets/PostgreSQL(1).png';
 import gitImg from '../../assets/git (2).png';
 import npmImg from '../../assets/1200px-Npm-logo.svg.png';
-import viteImg from '../../assets/1200px-Npm-logo.svg.png';
+import viteImg from '../../assets/logo-with-shadow.png';
 import jwtImg from '../../assets/logo-with-shadow.png';
 
 const HardSkills = () => {
