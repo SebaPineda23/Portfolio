@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../HardSkills/HardSkillsStyles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faSquareJs, faReact, faJava, faGitAlt, faBootstrap } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faSquareJs, faReact,faBootstrap } from '@fortawesome/free-brands-svg-icons';
 import NombreSeccion from '../NombreSeccion/NombreSeccion';
 
 const HardSkills = () => {
