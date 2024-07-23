@@ -1,4 +1,4 @@
-import '../nombreSeccion/NombreSeccionStyles.css'
+import '../NombreSeccion/NombreSeccionStyles.css'
 interface NombreSeccionProps {
     numero: string;
     nombre: string;
