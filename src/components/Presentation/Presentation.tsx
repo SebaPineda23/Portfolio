@@ -1,4 +1,4 @@
-
+import miFoto from '../../assets/WhatsApp Image 2023-10-10 at 6.28.40 PM.jpeg';
 import './PresentacionStyle.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -34,7 +34,7 @@ const Presentation: React.FC<Componente1Props> = ({ scrollToSobreMi }) => {
           <a href="https://www.linkedin.com/in/sebastian-pineda-a9a848294/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='icon-linkedin' icon={faLinkedinIn} style={{color: "#989898",}} /></a>
           <a href="https://github.com/SebaPineda23" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='icon-github' icon={faGithub} style={{color: "#989898",}} /></a>
         </div>
-          <img src="src/assets/WhatsApp Image 2023-10-10 at 6.28.40 PM.jpeg" alt="" />
+          <img src={miFoto} alt="" />
       </div>
     </div>
   )
