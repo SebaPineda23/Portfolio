@@ -1,5 +1,6 @@
 import '../SobreMi/SobreMiStyle.css'
 import NombreSeccion from '../NombreSeccion/NombreSeccion'
+import progPic from '../../assets/que-es-la-programacion-1024x683.jpg'
 
 interface SobreMiProps {
     scrollToSoftSkills: () => void;
@@ -14,7 +15,7 @@ const SobreMi: React.FC<SobreMiProps> = ({scrollToSoftSkills, scrollToHardSkills
             <div className='section-infoPersonal'>
                 <div className='columna-izquierda'>
                     <div className='imagen-prog'>
-                        <img src="src/assets/que-es-la-programacion-1024x683.jpg" alt="" />
+                        <img src={progPic} alt="" />
                     </div>
                     <div className='buttons'>
                             <button onClick={scrollToSoftSkills}>Soft Skills</button>

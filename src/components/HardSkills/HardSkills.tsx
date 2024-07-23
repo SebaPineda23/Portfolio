@@ -3,6 +3,14 @@ import '../HardSkills/HardSkillsStyles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faSquareJs, faReact,faBootstrap } from '@fortawesome/free-brands-svg-icons';
 import NombreSeccion from '../NombreSeccion/NombreSeccion';
+import javaImg from '../../assets/java.png';
+import springnootImg from '../../assets/spring-boot.webp';
+import mySqlImg from '../../assets/MySql.com.png';
+import postgreImg from '../../assets/PostgreSQL(1).png';
+import gitImg from '../../assets/git (2).png';
+import npmImg from '../../assets/1200px-Npm-logo.svg.png';
+import viteImg from '../../assets/1200px-Npm-logo.svg.png';
+import jwtImg from '../../assets/logo-with-shadow.png';
 
 const HardSkills = () => {
   const opciones: string[] = ['Front End', 'Back End', 'Tools'];
@@ -54,10 +62,10 @@ const HardSkills = () => {
                     <h4>Back End</h4>
                     <p>Un desarrollador backend se especializa en el desarrollo del lado del servidor de las aplicaciones web y de software. A diferencia de los desarrolladores front-end, los desarrolladores backend trabajan en la lógica de la aplicación, el procesamiento de datos y la gestión de servidores.</p>
                     <div className='section-logos'>
-                    <img src="src/assets/java.png" alt="Java" style={{width: "60px", height:"60px"}}/>
-                    <img src="src/assets/spring-boot.webp" alt="Spring boot" />
-                    <img src="src/assets/MySql.com.png" alt="MySQL" style={{width: "60px", height:"60px"}}/>
-                    <img src="src/assets/postgreSQL(1).png" alt="PostgreSQL" style={{width: "60px", height:"60px"}}/>
+                    <img src={javaImg} alt="Java" style={{width: "60px", height:"60px"}}/>
+                    <img src={springnootImg} alt="Spring boot" />
+                    <img src={mySqlImg} alt="MySQL" style={{width: "60px", height:"60px"}}/>
+                    <img src={postgreImg} alt="PostgreSQL" style={{width: "60px", height:"60px"}}/>
                     </div>
                   </div>
                 )}
@@ -66,10 +74,10 @@ const HardSkills = () => {
                     <h4>Tools</h4>
                     <p>Son herramientas o programas que facilitan el desarrollo, la depuración, la optimización y la gestión de aplicaciones web. Estas son fundamentales para mejorar la productividad de los desarrolladores y garantizar la calidad y eficiencia de las aplicaciones web.</p>
                     <div className='section-logos'>
-                    <img src="src/assets/git (2).png" alt="" style={{width: "60px", height:"60px"}}/>
-                    <img className='npm' src="src/assets/1200px-Npm-logo.svg.png" alt="npm" />
-                    <img className='vite' src="src/assets/logo-with-shadow.png" alt="Vite" />
-                    <img className='JWT' src="src/assets/JWT.png" alt="JWT" style={{width: "50px", height:"50px"}}/>
+                    <img src={gitImg} alt="Git" style={{width: "60px", height:"60px"}}/>
+                    <img className='npm' src={npmImg} alt="npm" />
+                    <img className='vite' src={viteImg} alt="Vite" />
+                    <img className='JWT' src={jwtImg} alt="JWT" style={{width: "50px", height:"50px"}}/>
                     </div>
                   </div>
                 )}

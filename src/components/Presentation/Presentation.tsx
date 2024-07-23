@@ -1,4 +1,5 @@
 import miFoto from '../../assets/WhatsApp Image 2023-10-10 at 6.28.40 PM.jpeg';
+import miCV from '../../assets/CV_SEBASTIAN_PINEDA.pdf'
 import './PresentacionStyle.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -10,7 +11,7 @@ const Presentation: React.FC<Componente1Props> = ({ scrollToSobreMi }) => {
 
   const handleDownload = () => {
     // Reemplaza la URL con la ruta de tu archivo PDF
-    const pdfURL = 'src/assets/CV_SEBASTIAN_PINEDA.pdf';
+    const pdfURL = miCV;
 
     // Abre una nueva ventana o pestaña para la descarga del PDF
     window.open(pdfURL, '_blank');
