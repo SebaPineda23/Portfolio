@@ -1,5 +1,5 @@
 import miFoto from '../../assets/WhatsApp Image 2023-10-10 at 6.28.40 PM.jpeg';
-import miCV from '../../assets/CV_SEBASTIAN_PINEDA.pdf'
+import miCV from '../../assets/Currículum Vitae-Sebastian Pineda.pdf'
 import './PresentacionStyle.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
