@@ -13,7 +13,7 @@ const Proyectos = () => {
                 <h4>Control de Cuotas</h4>
                 <p>El proyecto tiene como fin administrar las altas, bajas, modificaciones y actualización de los socios de un club, al cual se les actualiza un estado en base a si el socio realizó el pago mensual de su cuota. Además cuenta con varios filtros y la generación de archivos Excel y PDF sobre la liquidación Mensual. Las tecnologías implementadas para el back-end son Java 17 con Springboot, se uso PostgreSQL para la base de datos y se realizó el deploy de la aplicación por Render.</p>
                 <div className='buttons-proyecto'>
-                <button><a href="http://" target="_blank" rel="noopener noreferrer">Web</a></button>
+                <button><a href="https://control-de-cuotas-one.vercel.app/" target="_blank" rel="noopener noreferrer">Web</a></button>
                 <button><a href="https://github.com/SebaPineda23/ControlDeCuotas" target="_blank" rel="noopener noreferrer">Code</a></button>
                 </div>
             </div>
